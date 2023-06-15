@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+	x:Class="MauiMap.AppShell"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:views="clr-namespace:MauiMap.Views"
+	xmlns:local="clr-namespace:MauiMap">
+
+	<ShellContent
+		Shell.NavBarIsVisible="true"
+		Title="Maui Map Demo"
+		Icon="iconblank.png"
+		ContentTemplate="{DataTemplate views:MainPage}"
+		Route="MainPage" />
+	<ShellContent
+		Shell.NavBarIsVisible="true"
+		Title="Bing Map"
+		Icon="iconmap.png"
+		ContentTemplate="{DataTemplate views:BingMap}"
+		Route="Bing Map" />
+	<ShellContent
+		Shell.NavBarIsVisible="true"
+		Title="Embedded Map"
+		Icon="iconmap.png"
+		ContentTemplate="{DataTemplate views:EmbeddedMap}"
+		Route="Embedded Map" />
+</Shell>

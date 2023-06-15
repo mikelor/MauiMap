@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiMap", "MauiMap\MauiMap.csproj", "{BFB9F78A-A3D1-4BF8-ABF8-D02594969261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2ABA6116-6932-4399-B6C5-46733604A0CF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB9F78A-A3D1-4BF8-ABF8-D02594969261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB9F78A-A3D1-4BF8-ABF8-D02594969261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB9F78A-A3D1-4BF8-ABF8-D02594969261}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BFB9F78A-A3D1-4BF8-ABF8-D02594969261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB9F78A-A3D1-4BF8-ABF8-D02594969261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB9F78A-A3D1-4BF8-ABF8-D02594969261}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1730E0D4-9A3D-46D3-A6E2-DDCC60FD08C1}
+	EndGlobalSection
+EndGlobal

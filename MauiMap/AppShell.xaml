@@ -24,4 +24,10 @@
 		Icon="iconmap.png"
 		ContentTemplate="{DataTemplate views:EmbeddedMap}"
 		Route="Embedded Map" />
+    <ShellContent
+		Shell.NavBarIsVisible="true"
+		Title="MapSui Map"
+		Icon="iconmap.png"
+		ContentTemplate="{DataTemplate views:MapSuiMap}"
+		Route="MapSui Map" />
 </Shell>
